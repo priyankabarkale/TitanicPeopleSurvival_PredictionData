@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/data_ingestion.py
+src/data_preprocessing.py
+src/model_building.py
+src/model_evaluation.py
+src/titanicpeoplesurvival_predictiondata.egg-info/PKG-INFO
+src/titanicpeoplesurvival_predictiondata.egg-info/SOURCES.txt
+src/titanicpeoplesurvival_predictiondata.egg-info/dependency_links.txt
+src/titanicpeoplesurvival_predictiondata.egg-info/requires.txt
+src/titanicpeoplesurvival_predictiondata.egg-info/top_level.txt

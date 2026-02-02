@@ -3,6 +3,8 @@ from src.data_preprocessing import data_preprocessing
 from src.model_building import model_building
 from src.model_evaluation import model_evaluation
 
+
+
 def main():
     df = data_ingestion()
     X_train,X_test,y_train,y_test=data_preprocessing(df)
@@ -10,6 +12,7 @@ def main():
     classification_report,confusion_matrix=model_evaluation(model,X_train,X_test,y_train,y_test)
     print(confusion_matrix)
     print(classification_report)
+    
     
 
   
